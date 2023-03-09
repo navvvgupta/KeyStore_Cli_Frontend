@@ -1,4 +1,4 @@
-const removepath = 'http://localhost:5055/removekey'
+const removepath = 'https://keystore-cli-backend.onrender.com/removekey'
 const fs = require('fs');
 const axios = require('axios');
 const path = require('path');
