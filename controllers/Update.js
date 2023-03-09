@@ -1,4 +1,4 @@
-const setpath = 'http://localhost:5055/updatekey'
+const setpath = 'https://keystore-cli-backend.onrender.com/updatekey'
 const fs = require('fs');
 const axios = require('axios');
 const path = require('path');
