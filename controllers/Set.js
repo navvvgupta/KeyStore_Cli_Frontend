@@ -1,4 +1,4 @@
-const setpath='http://localhost:5055/setkey'
+const setpath='https://keystore-cli-backend.onrender.com/setkey'
 const fs = require('fs');
 const axios = require( 'axios' );
 const path=require('path');
