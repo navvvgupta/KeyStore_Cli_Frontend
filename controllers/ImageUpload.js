@@ -1,4 +1,4 @@
-const imgPath='http://localhost:5055/imgUpload'
+const imgPath='https://keystore-cli-backend.onrender.com/imgUpload'
 const axios = require( 'axios' );
 const { log } = require('console');
 const path=require('path')
