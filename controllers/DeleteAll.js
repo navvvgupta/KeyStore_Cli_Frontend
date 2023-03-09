@@ -1,4 +1,4 @@
-const removeallpath='http://localhost:5055/removeall'
+const removeallpath='https://keystore-cli-backend.onrender.com/removeall'
 const fs = require('fs');
 const axios = require( 'axios' );
 const path=require('path')
