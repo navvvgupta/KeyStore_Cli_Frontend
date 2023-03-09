@@ -1,4 +1,4 @@
-const removepath = 'http://localhost:5055/imageDelete'
+const removepath = 'https://keystore-cli-backend.onrender.com/imageDelete'
 const fs = require('fs');
 const axios = require('axios');
 const path = require('path');
