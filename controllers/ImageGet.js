@@ -1,4 +1,4 @@
-const getpath='http://localhost:5055/imageGet'
+const getpath='https://keystore-cli-backend.onrender.com/imageGet'
 const fs = require('fs');
 const axios = require( 'axios' );
 const path=require('path')
