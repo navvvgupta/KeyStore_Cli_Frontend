@@ -21,8 +21,8 @@ const Helpcommand = () =>{
     log(chalk.hex('#f2ba49').bold("   6. ") + chalk.green("keytrove img-Get <key>    , keytrove g <key>             ")+ chalk.hex('#FF69B4')("For Getting Any Image correspondence Name ")) ;
     log(chalk.hex('#f2ba49').bold("   7. ") + chalk.green("keytrove img-GetAll    , keytrove l             ")+ chalk.hex('#FF69B4')("For Getting All Uploaded Images  ")) ;
     log(chalk.hex('#f2ba49').bold("   8. ") + chalk.green("keytrove img-Delete <qkey>    , keytrove l <qkey>             ")+ chalk.hex('#FF69B4')("For deleting any Image Correspondence  Image name ")) ;
-   log(" ") ;
-
+    log(chalk.hex('#f2ba49').bold("   9. ") + chalk.green("keytrove list     , keytrove l            ")+ chalk.hex('#FF69B4')("For listing all key value pairs with their id's ")) ;
+   
     log(chalk.bgRed.bold("Password Requirements : ")) ;
 
     log(chalk.hex('#f2ba49').bold("    Password Must Has  Atleast 6 Character")) ;
