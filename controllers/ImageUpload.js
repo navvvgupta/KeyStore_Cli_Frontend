@@ -13,12 +13,12 @@ const ImageUpload = async (data) => {
         log(chalk.red.bold('First SignIn  !! '))
         return
     }
+    log(data)
     const data1 = {
         "img_name":data.name,
         "img_path":data.path,
         "authtoken":authtoken
     }
-    // console.log(data1)
     try {
        await axios.post(imgPath,data1).
        then((res)=>{
@@ -28,7 +28,8 @@ const ImageUpload = async (data) => {
     
     }
     catch (error) {
-        log(chalk.yellow(error.response.data.msg));
+        log(error)
+        // log(chalk.yellow(error.response.data.msg));
         process.exit(1);
     }
 

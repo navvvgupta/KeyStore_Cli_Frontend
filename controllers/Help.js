@@ -13,14 +13,14 @@ const Helpcommand = () =>{
     
     console.log(" ") ;
     log(chalk.red.bgRed.bold("Commands : ")) ;
-    log(chalk.hex('#f2ba49').bold("   1. ") + chalk.green("keystore set           , keystore s                    ")+ chalk.hex('#FF69B4')("For Setting any Key")) ;
-    log(chalk.hex('#f2ba49').bold("   2. ") + chalk.green("keystore get <key_Name>, keystore g <key_name>      ")+ chalk.hex('#FF69B4')("For Getting any Specific key  ")) ;
-    log(chalk.hex('#f2ba49').bold("   3. ") + chalk.green("keystore update <keyname>   , keystore u <keyname>            ")+ chalk.hex('#FF69B4')("For Updating Any Key  ")) ;
-    log(chalk.hex('#f2ba49').bold("   4. ") + chalk.green("keystore remove <keyname>   , keystore r <keyname>            ")+ chalk.hex('#FF69B4')("For Removing Any Key  ")) ;
-    log(chalk.hex('#f2ba49').bold("   5. ") + chalk.green("keystore img-Upload    , keystore k             ")+ chalk.hex('#FF69B4')("For Uploading Any Image  ")) ;
-    log(chalk.hex('#f2ba49').bold("   6. ") + chalk.green("keystore img-Get <key>    , keystore g <key>             ")+ chalk.hex('#FF69B4')("For Getting Any Image correspondence Name ")) ;
-    log(chalk.hex('#f2ba49').bold("   7. ") + chalk.green("keystore img-GetAll    , keystore l             ")+ chalk.hex('#FF69B4')("For Getting All Uploaded Images  ")) ;
-    log(chalk.hex('#f2ba49').bold("   8. ") + chalk.green("keystore img-Delete <qkey>    , keystore l <qkey>             ")+ chalk.hex('#FF69B4')("For deleting any Image Correspondence  Image name ")) ;
+    log(chalk.hex('#f2ba49').bold("   1. ") + chalk.green("keytrove set           , keytrove s                    ")+ chalk.hex('#FF69B4')("For Setting any Key")) ;
+    log(chalk.hex('#f2ba49').bold("   2. ") + chalk.green("keytrove get <key_Name>, keytrove g <key_name>      ")+ chalk.hex('#FF69B4')("For Getting any Specific key  ")) ;
+    log(chalk.hex('#f2ba49').bold("   3. ") + chalk.green("keytrove update <keyname>   , keytrove u <keyname>            ")+ chalk.hex('#FF69B4')("For Updating Any Key  ")) ;
+    log(chalk.hex('#f2ba49').bold("   4. ") + chalk.green("keytrove remove <keyname>   , keytrove r <keyname>            ")+ chalk.hex('#FF69B4')("For Removing Any Key  ")) ;
+    log(chalk.hex('#f2ba49').bold("   5. ") + chalk.green("keytrove img-Upload    , keytrove k             ")+ chalk.hex('#FF69B4')("For Uploading Any Image  ")) ;
+    log(chalk.hex('#f2ba49').bold("   6. ") + chalk.green("keytrove img-Get <key>    , keytrove g <key>             ")+ chalk.hex('#FF69B4')("For Getting Any Image correspondence Name ")) ;
+    log(chalk.hex('#f2ba49').bold("   7. ") + chalk.green("keytrove img-GetAll    , keytrove l             ")+ chalk.hex('#FF69B4')("For Getting All Uploaded Images  ")) ;
+    log(chalk.hex('#f2ba49').bold("   8. ") + chalk.green("keytrove img-Delete <qkey>    , keytrove l <qkey>             ")+ chalk.hex('#FF69B4')("For deleting any Image Correspondence  Image name ")) ;
    log(" ") ;
 
     log(chalk.bgRed.bold("Password Requirements : ")) ;
