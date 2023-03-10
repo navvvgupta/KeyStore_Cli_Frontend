@@ -26,7 +26,7 @@ keytrove help
 
 ### `Screenshot`
 
-![Screenshot](2023-03-10.png)
+![Screenshot](screenshot.png)
 
 ```sh
 Options :
@@ -37,14 +37,15 @@ Options :
    5. signout   For Signing Out
 
 Commands :
-   1. keytrove set           , keytrove s                    For Setting any Key
-   2. keytrove get <key_Name>, keytrove g <key_name>      For Getting any Specific key
-   3. keytrove update <keyname>   , keytrove u <keyname>            For Updating Any Key
-   4. keytrove remove <keyname>   , keytrove r <keyname>            For Removing Any Key
-   5. keytrove img-Upload    , keytrove k             For Uploading Any Image
-   6. keytrove img-Get <key>    , keytrove g <key>             For Getting Any Image correspondence Name
-   7. keytrove img-GetAll    , keytrove l             For Getting All Uploaded Images
-   8. keytrove img-Delete <qkey>    , keytrove l <qkey>             For deleting any Image Correspondence  Image name
+   1. keytrove set               , keytrove s             For Setting any Key
+   2. keytrove get <key_Name>    , keytrove g <key_name>  For Getting any Specific key
+   3. keytrove update <keyname>  , keytrove u <keyname>   For Updating Any Key
+   4. keytrove remove <keyname>  , keytrove r <keyname>   For Removing Any Key
+   5. keytrove img-Upload        , keytrove k             For Uploading Any Image
+   6. keytrove img-Get <key>     , keytrove g <key>       For Getting Any Image correspondence Name
+   7. keytrove img-GetAll        , keytrove l             For Getting All Uploaded Images
+   8. keytrove img-Delete <qkey> , keytrove l <qkey>      For deleting any Image Correspondence  Image name
+   9. keytrove list              , keytrove l             For listing all key value pairs with their ids
 
 Password Requirements :
     Password Must Has  Atleast 6 Character
@@ -84,6 +85,7 @@ Password Requirements :
 | ------ | ----------- |
 | keytrove set   | For Setting any Key value pair |
 | keytrove get key_Name | For Getting any Specific key. |
+| keytrove list | For listing All key value pairs with their id. |
 | keytrove update key_Name    |  For Updating Any Key value . |
 | keytrove remove key_Name   |  To delete Key value pair .|
 | keytrove img-Upload | For Uploading Any Image |
