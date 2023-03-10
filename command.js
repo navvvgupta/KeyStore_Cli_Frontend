@@ -19,7 +19,7 @@ const { question_signin , question_signup , question_keyvalue,question_image} = 
 
 
 program
-.version('1.0.4')
+.version('1.0.5')
 .description('Key Value Store Npm ')
 
 program
