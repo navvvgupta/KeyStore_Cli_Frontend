@@ -26,7 +26,7 @@ keytrove help
 
 ### `Screenshot`
 
-![Screenshot](screenshot.png)
+![Screenshot](https://github.com/navvvgupta/KeyStore_Cli_Frontend/blob/main/screenshot.png)
 
 ```sh
 Options :
