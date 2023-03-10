@@ -26,7 +26,7 @@ keytrove help
 
 ### `Screenshot`
 
-![Screenshot](https://drive.google.com/file/d/1FSrxcbqTko6M8dUsvnzrUYyHfHUZWUgg/view?usp=share_link)
+![Screenshot](https://github.com/navvvgupta/KeyStore_Cli_Frontend/blob/main/2023-03-10.png)
 
 ```sh
 Options :
